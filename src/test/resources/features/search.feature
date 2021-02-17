@@ -8,5 +8,5 @@ Feature: Search on Booking.com
 
     Examples:
       | City  | Hotel                      |
-      | Minsk | DoubleTree by Hilton Минск |
-      | Brest | Отель ЭРМИТАЖ              |
+      | Minsk | DoubleTree by Hilton Minsk |
+      | Brest | Hermitage Hotel            |

@@ -9,6 +9,6 @@ Feature: Check hotels review score on Booking.com
     Examples:
       | City     | Hotel                            | Score |
       | Istanbul | Swissotel The Bosphorus Istanbul | 9.0   |
-      | Minsk    | DoubleTree by Hilton Минск       | 9.2   |
-      | Minsk    | Гостиница Пекин Минск            | 9.0   |
+      | Minsk    | DoubleTree by Hilton Minsk       | 9.2   |
+      | Minsk    | Beijing Hotel Minsk              | 9.0   |
       | Tirana   | Maritim Hotel Plaza Tirana       | 9.4   |
