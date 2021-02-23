@@ -2,6 +2,8 @@ package pages;
 
 import lombok.extern.log4j.Log4j2;
 
+import java.util.Arrays;
+
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.open;
 
@@ -18,7 +20,7 @@ public class MainPage extends AbstractPage {
     }
 
     public MainPage sendKeysToSearchField(String... keys) {
-        log.info("Sent keys " + keys);
+        log.info("Sent keys " + Arrays.toString(keys));
         $x(SEARCH_FIELD_XPATH).sendKeys(keys);
         return this;
     }
